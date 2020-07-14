@@ -1,0 +1,33 @@
+{
+    "name": "social-media-men",
+    "version": "1.0.0",
+    "description": "Stack app using node, express, mongoose",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dS": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ChristianPari/Social-Media-MEN.git"
+    },
+    "author": "Christian Pari",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ChristianPari/Social-Media-MEN/issues"
+    },
+    "homepage": "https://github.com/ChristianPari/Social-Media-MEN#readme",
+    "dependencies": {
+        "bcrypt": "^5.0.0",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.9.24",
+        "pug": "^3.0.0",
+        "validator": "^13.1.1"
+    },
+    "devDependencies": {
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.4"
+    }
+}
